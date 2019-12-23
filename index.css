@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "ChicaGogoNFW01-Bold";
+    src: url("//db.onlinewebfonts.com/t/e5791db7c357b483e1e0d9e23bc6791e.eot");
+    src: url("//db.onlinewebfonts.com/t/e5791db7c357b483e1e0d9e23bc6791e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e5791db7c357b483e1e0d9e23bc6791e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e5791db7c357b483e1e0d9e23bc6791e.woff") format("woff"), url("//db.onlinewebfonts.com/t/e5791db7c357b483e1e0d9e23bc6791e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e5791db7c357b483e1e0d9e23bc6791e.svg#ChicaGogoNFW01-Bold") format("svg");
+}
+
+a {
+    font-family: "ChicaGogoNFW01-Bold";
+    font-size: 20px;
+}
+
+h1,
+#total {
+    font-family: "ChicaGogoNFW01-Bold";
+    font-size: 30px;
+    color: white;
+}
+
+i {
+    color: white;
+    padding-right: 50px;
+    padding-left: 20px;
+}
+
+p {
+    font-family: "ChicaGogoNFW01-Bold";
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.barre {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(53, 54, 56);
+}
+
+#articles {
+    border: 1px solid rgb(53, 54, 56);
+    border-radius: 10px;
+    margin: 20px 40px 20px 40px;
+    overflow: hidden;
+}
+
+.article {
+    width: 300px;
+    height: 300px;
+}
+
+.article1,
+.article2,
+.article3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.plus,
+.moins {
+    background-color: rgb(74, 37, 57);
+    border-radius: 50%;
+    border: 0px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+div.quantity {
+    display: flex;
+    justify-content: space-around;
+    min-width: 230px;
+}
+
+.quantity p {
+    margin: 0px 10px 0px 10px;
+}
+
+.price {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.barre p {
+    font-family: "ChicaGogoNFW01-Bold";
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.grey {
+    color: rgb(53, 54, 56);
+}
+
+#color {
+    color: rgb(193, 159, 131);
+    font-size: 40px;
+}
+
+#drop {
+    margin-left: 1115px;
+    justify-content: flex-end;
+}
